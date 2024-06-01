@@ -1,9 +1,5 @@
 const Home = () => {
-    return (
-        <div>
-            This is the home route
-        </div>
-    );
+  return <div className="max-w-7xl mx-auto"></div>;
 };
 
 export default Home;

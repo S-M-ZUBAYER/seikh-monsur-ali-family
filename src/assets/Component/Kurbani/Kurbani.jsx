@@ -1,9 +1,5 @@
 const Kurbani = () => {
-    return (
-        <div>
-            This is Kurbani Page
-        </div>
-    );
+  return <div className="min-h-[100vh] pt-5">This is Kurbani Page</div>;
 };
 
 export default Kurbani;

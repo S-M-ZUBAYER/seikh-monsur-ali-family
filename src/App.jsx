@@ -1,16 +1,13 @@
-import { RouterProvider } from 'react-router-dom'
-import './App.css'
-import { routes } from './assets/Component/Routes/Routes'
+import { RouterProvider } from "react-router-dom";
+import "./App.css";
+import { routes } from "./assets/Component/Routes/Routes";
 
 function App() {
-
   return (
-    <>
-      <RouterProvider router={routes}>
-
-      </RouterProvider>
-    </>
-  )
+    <div className="app">
+      <RouterProvider router={routes}></RouterProvider>
+    </div>
+  );
 }
 
-export default App
+export default App;

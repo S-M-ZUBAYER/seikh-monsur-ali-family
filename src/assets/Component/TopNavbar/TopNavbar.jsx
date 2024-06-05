@@ -56,20 +56,20 @@ const TopNavbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link to='/home' >Home</Link>
+              <Link to="/home">Home</Link>
             </li>
             <li>
-              <Link to='/kurbani'>Kurbani</Link>
+              <Link to="/kurbani">Distribution of meat</Link>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
               <details>
-                <summary>Parent</summary>
+                <summary>কুরবানী বাবদ খরচ</summary>
                 <ul className="p-2">
                   <li>
-                    <a>Submenu 1</a>
+                    <Link to="/accessoriescost">Accessories Cost</Link>
                   </li>
                   <li>
                     <a>Submenu 2</a>
